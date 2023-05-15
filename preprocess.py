@@ -19,7 +19,7 @@ workdir = 'datasets/'
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', default='Ciao', help='dataset name: Ciao/Epinions')
-parser.add_argument('--test_prop', default=0.1, help='the proportion of data used for test')
+parser.add_argument('--test_prop', default=0.2, help='the proportion of data used for test')
 args = parser.parse_args()
 
 # load data
